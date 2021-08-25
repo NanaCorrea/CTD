@@ -15,7 +15,7 @@ h1 {
     height: 400px;
     background-image: url('../aquario1.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
