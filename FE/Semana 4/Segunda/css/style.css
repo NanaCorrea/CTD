@@ -1,0 +1,61 @@
+body {
+  background-image: url('../images/sjc.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+main {
+  text-align: center;
+}
+
+.about {
+  padding: 10px 50px;
+  color: brown;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+iframe {
+  margin-top: 10px;
+  padding: 50px 50px;
+  text-align: center;
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.curiosities {
+  padding: 10px 50px;
+  margin: 10px 10px;
+  color: brown;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.sites {
+  padding: 10px 50px;
+  margin: 10px 10px;
+  color: brown;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
