@@ -1,3 +1,18 @@
 .banner {
   background-image: url('/images/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 150px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 0.5rem;
+  color: blueviolet;
 }
