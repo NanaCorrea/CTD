@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+body {
+}
+
 header {
   display: flex;
   position: fixed;
@@ -46,48 +49,12 @@ span {
   left: 310px;
 }
 
-.mainmenubtn {
-  background-color: #fcdedc;
-  color: rgb(197, 14, 148);
-  border: none;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
+.menu {
   display: flex;
   position: fixed;
-  top: 80px;
-  right: 200px;
-  height: 40px;
-}
-.mainmenubtn:hover {
-  background-color: rgb(248, 206, 242);
-  color: rgb(218, 101, 47);
-}
-.dropdown {
-  position: relative;
-}
-.dropdown-child {
-  display: none;
-  background-color: rgb(248, 206, 242);
-  right: 200px;
-  width: 100px;
-  height: 127px;
-  text-align: center;
-  border-radius: 5px;
-}
-.dropdown-child a {
-  color: rgb(197, 14, 148);
-  padding: 10px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown:hover .dropdown-child {
-  display: inline;
-  position: fixed;
-}
-.dropdown-child a:hover {
-  cursor: pointer;
-  color: rgb(218, 101, 47);
+  justify-content: space-between;
+  right: 100px;
+  top: 78px;
 }
 
 .icons {
@@ -101,6 +68,22 @@ span {
 #icon {
   width: 70px;
   height: 70px;
+}
+
+.itens {
+  margin: 7px;
+}
+
+#pink {
+  color: rgb(197, 14, 148);
+}
+
+#orange {
+  color: rgb(218, 101, 47);
+}
+
+#black {
+  color: black;
 }
 
 .wpp {

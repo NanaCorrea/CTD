@@ -1,0 +1,35 @@
+.mainmenubtn {
+  display: flex;
+  position: fixed;
+  background-color: rgb(248, 206, 242);
+  color: rgb(197, 14, 148);
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  margin-top: 20px;
+  top: 30px;
+}
+.mainmenubtn:hover {
+  background-color: rgb(248, 206, 242);
+}
+.dropdown {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  right: 100px;
+  top: 78px;
+}
+.dropdown-child {
+  display: none;
+  background-color: rgb(248, 206, 242);
+  min-width: 200px;
+}
+.dropdown-child a {
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
+  display: flex;
+}
+.dropdown:hover .dropdown-child {
+  display: flex;
+}
