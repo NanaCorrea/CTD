@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Arco-Íris</title>
+  </head>
+  <body>
+    <header>
+      <h1>mariana<span>dev</span>.</h1>
+    </header>
+    <main>
+      <div class="background"></div>
+      <form action="POST">
+        <label for="name">Qual seu nome?</label>
+        <input type="text" id="name" name="name" />
+        <label for="colors">Escolha sua cor preferida do Arco-Íris:</label>
+        <select name="colors" id="colors">
+          <option selected disabled>Selecione:</option>
+          <option id="vermelho" value="1">Vermelho</option>
+          <option id="laranja" value="2">Laranja</option>
+          <option id="amarelo" value="3">Amarelo</option>
+          <option id="verde" value="4">Verde</option>
+          <option id="azul" value="5">Azul</option>
+          <option id="anil" value="6">Anil</option>
+          <option id="violeta" value="7">Violeta</option>
+        </select>
+        <label for="coments">Por que você gosta dessa cor?</label>
+        <textarea name="coments" id="coments" cols="30" rows="10"></textarea>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
