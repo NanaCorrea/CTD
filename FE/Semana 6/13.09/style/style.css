@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #f9f9f9;
+  --green-color: #049813;
+  --blue-color: #1778f2;
+  --yellow-color: #ffcc0d;
+
+  --margin-right: 2rem;
+}
+
+/* ----------- HEADER ----------- */
+
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background-color);
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: var(--margin-right);
+}
+
+.brigadeiro2 {
+  position: fixed;
+  display: flex;
+  top: 0;
+  z-index: 1;
+  animation: brigadeiro2-animation 20s ease-out infinite;
+}
+
+.brigadeiro-img {
+  margin-top: 7vh;
+  width: 2rem;
+}
+
+@keyframes brigadeiro2-animation {
+  0% {
+    right: 91vw;
+    opacity: 0%;
+  }
+  10% {
+    opacity: 100%;
+  }
+  40% {
+    opacity: 100%;
+  }
+  50% {
+    right: 0vw;
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  90% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    right: 91vw;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.brasil {
+  width: 3rem;
+  height: 3rem;
+  animation: brasil 0.5s ease-out infinite;
+}
+
+@keyframes brasil {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.links {
+  width: 30vw;
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
+.yellow {
+  color: var(--yellow-color);
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  padding: 0 1rem;
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.2rem;
+  transition: 0.2s;
+}
+
+.cima:hover {
+  opacity: 0.5;
+}
+
+header img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* ----------- MAIN ----------- */
+main {
+  margin-left: 7.5vw;
+}
+
+.capa {
+  display: flex;
+  margin-top: 11vh;
+  height: 45vh;
+  max-width: 85vw;
+  background-image: url('/images/capa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  color: var(--background-color);
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 120px;
+  text-shadow: black 1px 0 10px;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: beige;
+  font-size: 125px;
+  text-shadow: black 5px 0 10px;
+}
+
+input {
+  border: 0;
+  padding: 0.25rem;
+  text-align: center;
+  transition: 0.2s;
+}
+
+input:focus {
+  background-color: var(--yellow-color);
+  color: var(--blue-color);
+  font-weight: bold;
+}
+input[type='checkbox']:checked {
+  box-shadow: 0 0 0 3px var(--yellow-color);
+}
+
+.grid {
+  display: grid;
+}
+
+.container {
+  margin-top: 1vh;
+  grid-auto-flow: column;
+  background-color: var(--background-color);
+  justify-content: center;
+  max-width: 85vw;
+}
+
+.produtos {
+  margin-top: 1vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem 8vw;
+  text-align: center;
+}
+
+h3 {
+  color: var(--green-color);
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  color: var(--blue-color);
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--yellow-color);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.novidade {
+  display: flex;
+  margin-top: 1vh;
+  background-color: beige;
+  max-width: 85vw;
+  justify-content: center;
+  text-align: center;
+  padding: 1vh 0;
+  color: var(--green-color);
+}
+
+#whatsapp {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  bottom: 0;
+  left: 0;
+}
+
+#seta {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  bottom: 0.25rem;
+  right: 0.25rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  text-align: center;
+  background-color: beige;
+  width: 100vw;
+  padding: 2rem;
+  align-items: center;
+}
+
+.bottom {
+  margin-bottom: 0.25rem;
+}
+
+#mapa {
+  width: 3rem;
+  height: 3rem;
+}

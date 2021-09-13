@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Brasil Doces</title>
+  </head>
+  <body>
+    <div class="brigadeiro2">
+      <img
+        src="/images/brigadeiro2.png"
+        alt="brigadeiro"
+        class="brigadeiro-img"
+      /><img
+        src="/images/brigadeiro3.png"
+        alt="brigadeiro"
+        class="brigadeiro-img"
+      /><img
+        src="/images/brigadeiro4.png"
+        alt="brigadeiro"
+        class="brigadeiro-img"
+      />
+    </div>
+    <header>
+      <div class="logo">
+        <img src="images/brasil.png" alt="Mapa do Brasil" class="brasil" />
+        <h1>
+          <span class="green">brasil</span><span class="blue">doces</span
+          ><span class="yellow">.</span>
+        </h1>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#" class="green cima">Conta</a></li>
+          <li><a href="#" class="blue cima">Carrinho</a></li>
+          <li><a href="#" class="yellow cima">Pedidos</a></li>
+        </ul>
+      </div>
+      <div class="redes">
+        <a href="#"
+          ><img src="images/instagram-icone-vert.png" alt="Instagram" /></a
+        ><a href="#"><img src="images/facebook.png" alt="Facebook" /></a
+        ><a href="#"><img src="images/youtube.png" alt="" /></a>
+      </div>
+    </header>
+    <main>
+      <div class="capa" id="capa"><h2>Doces brasileiros</h2></div>
+      <div class="novidade">
+        <form action="/registro" method="POST">
+          <p>
+            Cadastra-se para receber novidades sobre os seus doces preferidos!
+          </p>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" id="email" />
+          <p>Escolha seus tipos de doce preferidos:</p>
+          <input type="checkbox" name="doces" value="bolos" id="bolos" />
+          <label for="bolos">Bolos</label>
+          <input type="checkbox" name="doces" value="festa" id="festa" />
+          <label for="festa">Festa</label>
+          <input type="checkbox" name="doces" value="pudim" id="pudim" />
+          <label for="pudim">Pudim</label>
+          <input
+            type="checkbox"
+            name="doces"
+            value="tradicionais"
+            id="tradicionais"
+          />
+          <label for="tradicionais">Tradicionais</label>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+      <div class="container grid">
+        <div class="produtos grid">
+          <div class="produto">
+            <div class="foto"><img src="images/boloderolo.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Bolo de Rolo</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/brigadeiro.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Brigadeiro</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/canjica.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Canjica</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/cocada.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Cocada</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/goiabada.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Goiabada</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/pedemoleque.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Pé de Moleque</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/pudim.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Pudim</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/quindim.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Quindim</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="foto"><img src="images/rapadura.jfif" alt="" /></div>
+            <div class="preco">
+              <h3>Rapadura</h3>
+              <p>R$10,00</p>
+              <a href="#"><button>COMPRAR</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#"
+        ><img src="/images/whatsapp.png" alt="whatsapp" id="whatsapp"
+      /></a>
+      <a href="#capa"
+        ><img src="/images/seta.png" alt="seta para cima" id="seta"
+      /></a>
+    </main>
+    <footer>
+      <div class="rodape">
+        <img src="/images/brasil.png" alt="mapa do brasil" id="mapa" />
+        <h1 class="bottom">
+          <span class="green">brasil</span><span class="blue">doces</span
+          ><span class="yellow">.</span>
+        </h1>
+        <p class="bottom">₢ Copyright 2021 by Mariana Correa</p>
+        <p class="bottom">Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
