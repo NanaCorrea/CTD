@@ -143,7 +143,7 @@ main {
   margin-top: 11vh;
   height: 45vh;
   max-width: 85vw;
-  background-image: url('/images/capa.jpg');
+  background-image: url('../images/capa.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
@@ -165,16 +165,18 @@ h2:hover {
 }
 
 input {
-  border: 0;
+  border: 1;
   padding: 0.25rem;
   text-align: center;
   transition: 0.2s;
 }
 
 input:focus {
+  border: 1px solid orange;
   background-color: var(--yellow-color);
   color: var(--blue-color);
   font-weight: bold;
+  outline: none;
 }
 input[type='checkbox']:checked {
   box-shadow: 0 0 0 3px var(--yellow-color);

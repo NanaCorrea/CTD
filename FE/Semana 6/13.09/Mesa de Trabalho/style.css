@@ -1,0 +1,11 @@
+body {
+  background-color: gray;
+}
+
+main {
+  margin: 20vh 10vw;
+  width: 80vw;
+  height: 60vh;
+  border: 1px solid black;
+  box-shadow: 2px 2px white;
+}

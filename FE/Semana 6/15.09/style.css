@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  transition: .5s;
+}
+
+h1:hover {
+  font-size: 40px;
+  color: rgb(84, 134, 84);
+}
+
+p {
+  text-align: center;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::first-letter {
+  color: green;
+}
+
+div {
+  text-align: center;
+}
+
+.segunda {
+  display: flex;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.segunda:hover {
+  transform: scale(2);
+}
+
+img {
+  animation: grande 1s infinite;
+}
+
+@keyframes grande {
+  from {
+    width: 50%;
+    height: 50%;
+  }
+  to {
+    width: 60%;
+    height: 60%;
+  }
+}

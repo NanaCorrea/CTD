@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pedidos</title>
+  </head>
+  <body>
+    <main>
+      <h1>Faça já o seu pedido!!!</h1>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" />
+        <label for="email">E:mail</label>
+        <input type="email" name="email" id="email" />
+        <label for="data">Data de entrega:</label>
+        <input type="date" name="data" id="data" />
+        <fieldset>
+          <legend>Escolha um ou mais doces:</legend>
+          <label for="brigadeiro">Brigadeiro</label>
+          <input type="checkbox" name="doces" id="brigadeiro" />
+          <label for="beijinho">Beijinho</label>
+          <input type="checkbox" name="doces" id="beijinho" />
+          <label for="cajuzinho">Cajuzinho</label>
+          <input type="checkbox" name="doces" id="cajuzinho" />
+          <label for="bichodepe">Bicho de pé</label>
+          <input type="checkbox" name="doces" id="bichodepe" />
+        </fieldset>
+        <fieldset>
+          <legend>Vai precisar de embalagem para presente?</legend>
+          <input type="radio" name="presente" id="sim" />
+          <label for="sim">Sim</label>
+          <input type="radio" name="presente" id="nao" />
+          <label for="sim">Não</label>
+        </fieldset>
+        <button type="submit">Fechar Pedido</button>
+        <button type="reset">Limpar Dados</button>
+      </form>
+    </main>
+  </body>
+</html>
