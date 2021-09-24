@@ -84,7 +84,7 @@ main {
   background-size: cover;
   width: 100%;
   max-width: 1100px;
-  height: 40vh;
+  height: 20rem;
 }
 
 .sobre {
@@ -100,7 +100,7 @@ main {
 iframe {
   margin-top: 1vh;
   width: 100%;
-  min-height: 40vh;
+  min-height: 60vh;
   padding: 0 10px;
 }
 
@@ -109,7 +109,7 @@ iframe {
   flex-wrap: wrap;
   width: 92%;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 10px;
   margin-top: 10px;
 }
@@ -118,7 +118,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 30rem;
+  max-width: 24rem;
   justify-content: center;
   border: 1px solid gray;
   padding: 10px;
