@@ -116,6 +116,7 @@ iframe {
 .curiosity {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   max-width: 20rem;
   justify-content: center;
   border: 1px solid gray;
