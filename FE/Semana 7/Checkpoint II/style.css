@@ -55,14 +55,17 @@ h2 {
 }
 
 iframe {
+  max-width: 49%;
   width: 49%;
-  min-width: 254px;
+  min-width: 460px;
+  min-height: 250px;
   border-radius: 10px;
 }
 
 form {
+  max-width: 49%;
   width: 49%;
-  min-width: 254px;
+  min-width: 460px;
   font-size: 18px;
   background-color: rgba(173, 218, 173, 0.5);
   border-radius: 10px;
