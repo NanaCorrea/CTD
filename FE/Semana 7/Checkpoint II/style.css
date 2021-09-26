@@ -51,17 +51,18 @@ h2 {
   width: 100%;
   justify-content: center;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 iframe {
-  width: 50%;
-  height: 350px;
+  width: 49%;
+  min-width: 254px;
   border-radius: 10px;
 }
 
 form {
-  width: 50%;
-  height: 350px;
+  width: 49%;
+  min-width: 254px;
   font-size: 18px;
   background-color: rgba(173, 218, 173, 0.5);
   border-radius: 10px;
@@ -136,12 +137,14 @@ footer {
   margin-top: 0;
   font-family: 'Urbanist';
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
   text-align: justify;
   color: black;
   font-size: 10px;
   font-weight: bold;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 footer div a {
