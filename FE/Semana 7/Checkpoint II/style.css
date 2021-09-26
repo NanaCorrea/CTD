@@ -48,24 +48,19 @@ h2 {
 .video {
   display: flex;
   gap: 10px;
-  width: 100%;
   justify-content: center;
   padding: 10px;
   flex-wrap: wrap;
 }
 
 iframe {
-  max-width: 49%;
-  width: 49%;
-  min-width: 460px;
+  min-width: 49%;
   min-height: 250px;
   border-radius: 10px;
 }
 
 form {
-  max-width: 49%;
-  width: 49%;
-  min-width: 460px;
+  min-width: 49%;
   font-size: 18px;
   background-color: rgba(173, 218, 173, 0.5);
   border-radius: 10px;
