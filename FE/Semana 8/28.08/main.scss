@@ -1,0 +1,10 @@
+$color: white;
+$backgroundColor: black;
+$margin: 10px;
+
+p {
+  color: $color;
+  background: $backgroundColor;
+  margin: $margin;
+  padding: $margin;
+}
