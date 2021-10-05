@@ -1,0 +1,7 @@
+#banner {
+    background-image: url('./images/tbbt2.jpeg');
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }

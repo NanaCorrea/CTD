@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(71, 70, 70);
+}
+
+#header {
+  background-color: black;
+  display: flex;
+  position: sticky;
+  height: 7vh;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+#logo {
+  height: 6vh;
+  margin-left: 1.2vw;
+}
+
+nav {
+  justify-content: center;
+}
+#menu {
+  display: flex;
+  margin-top: 1.8vh;
+  gap: 3vw;
+  justify-content: center;
+}
+#menu li {
+  display: flex;
+  transition: 0.2s;
+}
+
+#menu li:hover {
+  transform: scale(1.1);
+}
+
+#menu li img {
+  margin-right: 0.5vw;
+}
+#menu li a {
+  text-decoration: none;
+  color: white;
+}
+#login {
+  display: flex;
+  color: white;
+  gap: 1vw;
+  justify-content: flex-end;
+  margin-right: 1.2vw;
+  align-items: center;
+}
+
+#login input {
+  height: 4vh;
+  border-radius: 5px;
+  padding: 1vh;
+  background-color: rgb(71, 70, 70);
+  color: white;
+}
+#entrar {
+  background-color: #d2fdff;
+  padding: 0 0.2vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  height: 4vh;
+}
+#entrar:hover {
+  color: #6b6b6b;
+  transform: scale(1.1);
+}
+#banner {
+  background-image: url('./images/greys2.jpeg');
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#banner p {
+  margin-top: 46vh;
+  margin-left: 60vw;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.623);
+  text-align: justify;
+}
+#banner a {
+  text-decoration: none;
+  color: black;
+}
+
+#banner a:hover {
+  color: gray;
+}
+
+#assistir {
+  margin-left: 60vw;
+  background-color: #d2fdff;
+  padding: 0.2vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#assistir:hover {
+  transform: scale(1.1);
+}
+
+#filmes {
+  justify-content: center;
+  margin: 2vh;
+}
+
+.filme {
+  text-align: center;
+  border: 1px solid black;
+  padding: 1vw;
+}
+
+.resumo {
+  margin: 1vw 0;
+  display: none;
+  color: white;
+  text-align: justify;
+}
+
+.filme:hover .resumo {
+  display: block;
+}
+
+#assista {
+  background-color: #d2fdff;
+  padding: 0.2vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#assista:hover {
+  transform: scale(1.1);
+}
+
+.resumo {
+  text-align: center;
+}
+
+.resumo p {
+  text-align: justify;
+}
+
+.resumo a {
+  text-decoration: none;
+  color: black;
+}
+
+.resumo a:hover {
+  color: gray;
+}
+
+.filme img {
+  width: 100%;
+}
+
+#footer {
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+#footer h2 {
+  font-size: 3vh;
+}
+
+#footer img {
+  margin-top: 2vh;
+  width: 20%;
+}
+
+.sobre {
+  margin: auto;
+  width: 90%;
+  text-align: justify;
+}
+
+.sobre p {
+  margin-top: 2vh;
+  font-size: 2vh;
+}
+
+#footer .linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1vw;
+}
+#footer .linkedin img {
+  width: 2vw;
+  margin-bottom: 1vh;
+}
+#footer .linkedin a {
+  color: white;
+  text-decoration: none;
+  font-size: 4vh;
+}
+
+.ContainerCarrossel {
+  padding: 2%;
+  margin-bottom: 2%;
+  color: white ;
+}
+
+.carrossel img{
+  transition: all 0.3s ease-in-out;
+}
+.carrossel img:hover{
+  transform: scale(1.1);
+}
+
+.owl-carousel img {
+  width: 100px;
+}
+
+#sinopse {
+  color: white;
+  text-align: justify;
+  
+}
+
+.teste {
+  padding: 12px;
+}
+
+#serie {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}

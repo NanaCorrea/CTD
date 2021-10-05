@@ -1,0 +1,8 @@
+#banner {
+    background-image: url('./images/logo2.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+  }
